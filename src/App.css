@@ -35,6 +35,14 @@
   color: white;
 }
 
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
 .App-footer {
   width: 100%;
   color: white;
