@@ -1,19 +1,18 @@
 header {
     background-color: white;
-    height: 20vh;
+    height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:left;
 }
 
 header img {
-    width: 15%;
+    width: 10%;
     height: 100%;
 }
 
 header span {
-    font-size: 60px;
+    font-size: 40px;
     color: black;
     font-weight: 300;
-    margin-right: 50px;
 }
