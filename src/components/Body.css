@@ -1,0 +1,14 @@
+.Body {
+    position: relative;
+}
+
+.Body img {
+  max-width: 100%;
+}
+
+@media (min-width: 1400px) {
+  .Body .content {
+    position: absolute;
+    top: 40px;
+  }
+}
