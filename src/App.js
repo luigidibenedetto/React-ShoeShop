@@ -2,6 +2,7 @@ import "./App.css";
 import Body from "./components/Body";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
+import Card from "./components/Card";
 
 const data = {
   name: "HappyShoes",
@@ -71,7 +72,11 @@ function App() {
         cover={data.cover}
         title={data.title}
         description={data.description}
-        products={data.products}
+        // products={data.products}
+      />
+      <Card 
+          title={data.title} 
+          products={data.products} 
       />
       <Footer company={data.company} />
     </div>

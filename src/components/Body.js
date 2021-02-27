@@ -26,7 +26,7 @@ class Body extends React.Component {
         <div className="content">
           <h1>{title}</h1>
           <h2>{description}</h2>
-          <div className="products-container">
+          {/* <div className="products-container">
             {showProducts ? (
               products.map((product) => {
                 return <li>{product.title}</li>;
@@ -36,7 +36,7 @@ class Body extends React.Component {
                 Show products
               </button>
             )}
-          </div>
+          </div> */}
         </div>
       </main>
     );
