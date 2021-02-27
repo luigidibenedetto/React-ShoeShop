@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import PropTypes from "prop-types";
 
 import "./Header.css";
@@ -17,3 +18,13 @@ Header.propTypes = {
 };
 
 export default Header;
+=======
+import React from 'react';   
+import './Header.css';
+
+function Header(props) {
+  return <header><img src={props.logo} alt="logo" /><span>{props.name}</span></header>  
+}
+
+export default Header;
+>>>>>>> fbb88796f607c597c4863b99c48b30747738ef9f
