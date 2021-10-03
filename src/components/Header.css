@@ -1,26 +1,4 @@
-<<<<<<< HEAD
 .Header {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
-=======
-header {
-    background-color: white;
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header img {
-    width: 15%;
-    height: 100%;
-}
-
-header span {
-    font-size: 60px;
-    color: black;
-    font-weight: 300;
-    margin-right: 50px;
-}
->>>>>>> fbb88796f607c597c4863b99c48b30747738ef9f
